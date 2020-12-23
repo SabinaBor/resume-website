@@ -2,25 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f76e28ff-4a52-43c7-aa56-fc5122e96b9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ginger.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contacts.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Education.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Links.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MyProjects.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Skills.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/app.fb0c6e1c.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/logo.82b9c7a5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.ee3d679f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.ee3d679f.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.56acd13b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.56acd13b.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelloWorld.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ginger.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608727643448</updated>
       <workItem from="1608727648298" duration="348000" />
-      <workItem from="1608728074670" duration="8473000" />
+      <workItem from="1608728074670" duration="15430000" />
     </task>
     <servers />
   </component>

@@ -1,18 +1,18 @@
 <template>
   <div id="app">
     <v-app>
-   <HelloWorld></HelloWorld>
+   <MainPage></MainPage>
     </v-app>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MainPage from './components/MainPage.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MainPage
   }
 }
 </script>
