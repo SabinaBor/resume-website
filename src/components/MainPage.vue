@@ -35,8 +35,8 @@
     </v-app-bar>
     <v-sheet
         id="scrolling-techniques-3"
-        class="overflow-auto"
-        max-height="600"
+        class="overflow-y-auto"
+        max-height="700"
     >
       <div class="some-part" id='about-part'>
         <About></About>

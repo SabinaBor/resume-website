@@ -1,8 +1,5 @@
 <template>
   <v-card>
-    <v-card-title class="headline">
-      {{content.title}}
-    </v-card-title>
     <br>
     <v-card-text>
       {{content.text}}

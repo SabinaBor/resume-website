@@ -2,7 +2,7 @@
   <div class="contacts-page">
     <smaller-panel :title="content.title">
       <p><b>email:</b> s.boranbayeva0712@gmail.com</p>
-      <p><b>телефон:</b> +7 (701) 670 167 2</p>
+      <p><b>телефон:</b> +7 (701) 670 16 72</p>
     </smaller-panel>
   </div>
 </template>

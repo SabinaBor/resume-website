@@ -15,7 +15,21 @@
                 {{ titles[0] }}
               </v-btn>
             </template>
+            <v-card>
+              <v-card-title class="headline">
+                <v-row justify="space-between">
+                  {{titles[0]}}
+                  <v-btn
+                      text
+                      @click="dialog = false"
+                      flat
+                  >
+                    закрыть
+                  </v-btn>
+                </v-row>
+              </v-card-title>
             <InfoTB/>
+            </v-card>
           </v-dialog>
           <br>
           <v-dialog
@@ -30,7 +44,21 @@
                 {{ titles[1] }}
               </v-btn>
             </template>
+            <v-card>
+              <v-card-title class="headline">
+                <v-row justify="space-between">
+                  {{titles[1]}}
+                  <v-btn
+                      text
+                      @click="dialog1 = false"
+                      flat
+                  >
+                    закрыть
+                  </v-btn>
+                </v-row>
+              </v-card-title>
             <RessSeatFinder/>
+            </v-card>
           </v-dialog>
           <br>
           <v-dialog
@@ -45,7 +73,21 @@
                 {{ titles[2] }}
               </v-btn>
             </template>
+            <v-card>
+              <v-card-title class="headline">
+                <v-row justify="space-between">
+                  {{titles[2]}}
+                <v-btn
+                    text
+                    @click="dialog2 = false"
+                    flat
+                >
+                  закрыть
+                </v-btn>
+                </v-row>
+              </v-card-title>
             <HumanAssisEnv/>
+            </v-card>
           </v-dialog>
         </v-layout>
       </div>
@@ -82,6 +124,10 @@ export default {
 </script>
 
 <style scoped>
+
+.v-card__title{
+  background-color: #F48FB1;
+}
 
 button.v-btn {
   background-color: #F48FB1 !important;

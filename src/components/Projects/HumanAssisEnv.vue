@@ -1,15 +1,9 @@
 <template>
   <v-card>
-    <v-card-title class="headline">
-      {{content.title}}
-    </v-card-title>
     <br>
     <v-card-text>
       {{content.text}}
     </v-card-text>
-
-    <v-divider></v-divider>
-
   </v-card>
 </template>
 
@@ -18,6 +12,7 @@ export default {
 name: "HumanAssisEnv",
   data () {
     return {
+      dialog2: false,
       content: {
         title: 'Human-assisted Smart Environments',
         text: 'Этот проект был создан для финального проекта на бакалавре. Я выполняла это одна, пользовалась фреймворком' +
@@ -30,10 +25,6 @@ name: "HumanAssisEnv",
 </script>
 
 <style scoped>
-
-.v-card__title{
-  background-color: #DCE775;
-}
 
 img {
   width: 100%;
