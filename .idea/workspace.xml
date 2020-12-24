@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f76e28ff-4a52-43c7-aa56-fc5122e96b9c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/MainPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage.vue" afterDir="false" />
+    <list default="true" id="f76e28ff-4a52-43c7-aa56-fc5122e96b9c" name="Default Changelist" comment="Added Contacts, Links">
+      <change afterPath="$PROJECT_DIR$/src/components/Projects/HumanAssisEnv.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Projects/InfoTB.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Projects/RessSeatFinder.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/infotb/AboutPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/infotb/AskAnExpertPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/infotb/MainBodySection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/infotb/MainBodySection2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/ressSeatFinder/res1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/ressSeatFinder/res2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/ressSeatFinder/res3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MyProjects.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyProjects.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +54,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images/ressSeatFinder" />
+      <recent name="$PROJECT_DIR$/src/images/infotb" />
       <recent name="$PROJECT_DIR$/src/components" />
     </key>
   </component>
@@ -54,11 +68,23 @@
       <option name="presentableId" value="Default" />
       <updated>1608727643448</updated>
       <workItem from="1608727648298" duration="348000" />
-      <workItem from="1608728074670" duration="26312000" />
+      <workItem from="1608728074670" duration="37578000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Contacts, Links">
+      <created>1608812948270</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608812948270</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Contacts, Links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Contacts, Links" />
   </component>
 </project>

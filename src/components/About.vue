@@ -1,7 +1,17 @@
 <template>
   <div class="about-page">
     <panel :title="content.title">
+      <v-card-text>
               {{ content.text }}
+      </v-card-text>
+      <br>
+      <v-card-text>
+      {{content.continue}}
+      </v-card-text>
+      <br>
+      <v-card-text>
+      {{content.continue2}}
+      </v-card-text>
     </panel>
   </div>
 </template>
@@ -15,17 +25,26 @@ export default {
     return {
       content: {
         title: "ОБО МНЕ",
-        text: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor " +
-            "incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud" +
-            " exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute " +
-            "irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla " +
-            "pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia " +
-            "deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur " +
-            "adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
-            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip " +
-            "ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit " +
-            "esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat " +
-            "non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\""
+        text: "Всем привет! Меня зовут Сабина. Мне 22 года. Всю свою жизнь, я никак не могла определиться с тем, " +
+            "чем бы я на самом деле хотела бы заниматься на постоянной основе. Однако, к 11ому классу я всё таки решила " +
+            "пойти на факультет естественных наук и заняться Computer Science. Поэтому я поступила в Гронингенский унивсерситет" +
+            " в Голландии. Я сделала такой выбор, потому что мне хотелось узнать об этой стране побольше. На то время не " +
+            "так много людей с Казахстана решались жить в Нидерландах. В основном все мои знакомые выбирали Англию, Чехию," +
+            " Россию, Германию или Австрию. Поэтому для всех было необычно то, что я решила полететь именно туда. Но я ни" +
+            " капли не пожалела. Мой университет находится в списке \"100 лучших университетов мира\". На Foundation году" +
+            " я встретила много интересных людей, которые стали мне друзьями. С ними я продолжаю общаться и по сей день. ",
+        continue: "Поначалу учёба давалась нелегко, так как базовых знаний в школе я не получила. Однако, я не сдавалась," +
+            " и, когда из 300 с чем-то человек нас осталось 100 с небольшим, я поняла, что всё было не зря. Я очень упёртый " +
+            "человек. Если у меня есть цель, то я к ней иду, не взирая ни на какие преграды. У меня также есть огромное терпение. " +
+            "Я тот человек, который может сидеть часами и плести фенечки, а также работать всю ночь и не уставать. Я быстро " +
+            "разбираюсь в нужном мне материале, мне несложно научиться чему-то новому. За три года учёбы я развила в себе" +
+            " невероятные способности гуглёжа, что значит, что я легко нахожу необходимые документации по программированию.",
+        continue2: "Близкие мне люди называют меня светлым и весёлым человеком. Я очень оптимистична, и люблю, когда у людей " +
+            "развито чувство юмора. Ведь каждый день мы сталкиваемся с различными проблемами, поэтому неплохая шутка никогда не " +
+            "навредит, а наоборот приукрасит любой день. Ещё я являюсь командным игроком, мне нравится работать с другими людьми." +
+            " Особенно, когда все работают сообща, т.е. помогают друг другу, отвечают за свои задачи, не предают доверие своих" +
+            " сокомандников. Также люблю креативность во всём, ищу различные способы облегчить решения сложных задач, как в жизни, " +
+            "так и в программировании. Спасибо, что дочитали до конца! Приятно с Вами познакомиться!"
       }
     }
   },
