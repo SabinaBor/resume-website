@@ -38,23 +38,23 @@
         class="overflow-auto"
         max-height="600"
     >
-      <div class="some-part" id='about-part' style="margin-top: 30%">
-        <h1>Обо мне</h1>
+      <div class="some-part" id='about-part'>
+        <About></About>
       </div>
-      <div class="some-part" id='skill-part' style="margin-top: 30%">
-        <h1>Мои навыки</h1>
+      <div class="some-part" id='skill-part'>
+        <Skills></Skills>
       </div>
-      <div class="some-part" id='education-part' style="margin-top: 30%">
-        <h1>Образование</h1>
+      <div class="some-part" id='education-part'>
+        <Education></Education>
       </div>
       <div class="some-part" id='project-part' style="margin-top: 30%">
-        <h1>Мои проекты</h1>
+        <MyProjects></MyProjects>
       </div>
       <div class="some-part" id='contact-part' style="margin-top: 30%">
-        <h1>Контакты</h1>
+        <Contacts></Contacts>
       </div>
       <div class="some-part" id='link-part' style="margin-top: 30%">
-        <h1>Мои ссылки</h1>
+        <Links></Links>
       </div>
       <v-container style="height: 1000px;">
       </v-container>
@@ -64,26 +64,26 @@
 </template>
 
 <script>
-// import About from "@/components/About";
-// import Contacts from "@/components/Contacts";
-// import Education from "@/components/Education";
-// import Links from "@/components/Links";
-// import MyProjects from "@/components/MyProjects";
-// import Skills from "@/components/Skills";
+import About from "@/components/About";
+import Contacts from "@/components/Contacts";
+import Education from "@/components/Education";
+import Links from "@/components/Links";
+import MyProjects from "@/components/MyProjects";
+import Skills from "@/components/Skills";
 
 export default {
   name: 'MainPage',
   data() {
     return {}
   },
-  // components: {
-  //   About,
-  //   Contacts,
-  //   Education,
-  //   Links,
-  //   MyProjects,
-  //   Skills
-  // }
+  components: {
+    About,
+    Contacts,
+    Education,
+    Links,
+    MyProjects,
+    Skills
+  }
 }
 </script>
 
@@ -94,8 +94,12 @@ export default {
   margin-left: 3%;
 }
 
+#about-part:before {
+  height: 300px!important;
+}
+
 .some-part:before {
-  height: 300px;
+  height: 150px;
   display: block;
   content: '';
 }
@@ -110,7 +114,16 @@ a:visited {
   text-decoration: none;
 }
 
+#about-part {
+  margin-top: 15%;
+}
+
 @media screen and (max-width: 600px) {
+
+  #about-part {
+    margin-top: 30%;
+  }
+
   .v-toolbar__title {
     font-size: x-small;
     margin-left: 2%;
