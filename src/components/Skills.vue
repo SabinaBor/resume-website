@@ -87,6 +87,11 @@ export default {
   text-align: left;
 }
 
+.v-list-item__content {
+  color: #2c3e50;
+}
+
+
 .skills-page-content {
   margin-left: 5%;
   margin-right: 2%;
