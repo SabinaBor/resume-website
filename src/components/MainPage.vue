@@ -36,7 +36,7 @@
     <v-sheet
         id="scrolling-techniques-3"
         class="overflow-auto"
-        max-height="700"
+        max-height="600"
     >
       <div class="some-part" id='about-part'>
         <About></About>
@@ -56,6 +56,8 @@
       <div class="some-part" id='link-part' style="margin-top: 30%">
         <Links></Links>
       </div>
+      <v-container style="height: 1000px;">
+      </v-container>
     </v-sheet>
   </v-card>
   </div>
