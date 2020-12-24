@@ -36,7 +36,7 @@
     <v-sheet
         id="scrolling-techniques-3"
         class="overflow-auto"
-        max-height="1000"
+        max-height="700"
     >
       <div class="some-part" id='about-part'>
         <About></About>
