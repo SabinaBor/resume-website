@@ -1,0 +1,47 @@
+{
+  "name": "Sabina Boranbayeva",
+  "menu": {
+    "en": "English",
+    "ru": "Russian",
+    "open": "Open the main page",
+    "about": "About me",
+    "skills": "Skills",
+    "contacts": "Contacts",
+    "links": "Links",
+    "education": "Education",
+    "projects": "My projects"
+  },
+  "aboutPage": {
+    "text": "Welcome! My name is Sabina Boranbayeva. I am 22 years old. For a long time, I didn't know what I really wanted to do. However, when I was 17, I decided to study at the faculty of Science and Engineering and do Computer Science. Therefore, I applied to the University of Groningen in the Netherlands. My choice was based on my curiosity about that country. The university I went to is the top 100 best universities in the world. On Foundation Year I met many interesting people who became my friends. We still contact each other quite often.\nIn the beginning, it was hard for me to study programming. The reason was that I didn't get any basic knowledge about it during high school. Despite that, I didn't give up. So, after I found that among 300+ people, only about 100 people remained to study after the first year, and I was one of them, I realized that I did a good job and was proud of myself.\nI am a stubborn person. If I have a goal, I try to reach it no matter what. I am also a patient person. I can work with the computer the whole night and not get tired at all. Especially, if I am into the project I do. Moreover, It's not hard for me to understand the material I need. I can learn something new pretty fast. For three years I developed unbelievable abilities to easily find all necessary documents about programming.\nClose people call me a bright and funny person. I am optimistic. I love people who have a sense of humor in them. Also, I am a team player. I like working with others. Especially, when everyone works together, i.e., they help each other, they are responsible for their tasks and they don't betray the trust of others. Also, I adore the creativity in everything. I look for different ways to ease solutions to difficult tasks in reality and programming. Thank you to read it till the end. Nice to meet you!\n"
+  },
+  "skillsPage": {
+    "title1": "EXPERIENCED IN",
+    "title2": "PROGRAMMING LANGUAGES I STUDIED",
+    "title3": "ADDITIONAL SKILLS",
+    "skill1": "Good knowledge of Git",
+    "skill2": "Worked with PostMan"
+  },
+  "educationPage": {
+    "university": "University of Groningen, Groningen, the Netherlands (bachelor)",
+    "year": "september 2017 - august 2020",
+    "foundation": "Holland International Study Center, Groningen, the Netherlands (foundation)",
+    "years": "september 2016 - august 2017",
+    "school": "Grammar School №40, Taraz, Kazakhstan"
+  },
+  "contactsPage": {
+    "phone": "phone"
+  },
+  "projectsPage": {
+    "gallery": "Gallery",
+    "infotb": "INFO-TB PLATFORM",
+    "infotb_img1": "Main Page",
+    "infotb_img2": "Its continue",
+    "infotb_img3": "Page where users can ask experts",
+    "infotb_text": "The project was for the course Software Engineering at the University of Groningen. It was teamwork. There were 6 people on my team: Alex Tutea, Tudor Hamdan, Richard Westerhof, Radu Catarambol, Merijn Schroder, and me. Our tutor was Alina Matei. The first two people were responsible for the Backend part while others including me did Frontend. Overall, we had 3 months to finish everything that our client wanted. She was a Ph.D. student of the Medical University in Groningen. During the project, we used Slack to communicate and Trello - to follow the process of doing tasks. We used Vue.js for Frontend and Express.js + node.js for Backend. Also, SQLite for the database.",
+    "ress_img1": "Map",
+    "ress_img2": "Working page for restaurants",
+    "ress_text": "This project was for the course 'Requirements Engineering and Software Startups 'of the University of Groningen. It was teamwork. There were 3 people on my team. They were Illarion Oralin, Richard Westerhof, and me. Illarion was working for the Backend, but Richard and I were doing the Frontend. We spent 1 month on this project. We used Whatsapp to communicate and Trello - to follow the process of doing tasks. The frontend was built using Vue.js, while for the Backend we used Python Flask.",
+    "human_text": "I developed this project for my final thesis. I did it alone. I used Apache Cordova (Phone Gap) framework for this. The goal was to build a mobile application. I don't have an opportunity to show the screenshots of this project. But it is possible to demonstrate it during the interview.",
+    "close": "close"
+  }
+}
