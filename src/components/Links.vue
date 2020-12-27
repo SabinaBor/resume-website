@@ -1,7 +1,7 @@
 <template>
   <div class="links-page">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <smaller-panel :title="content.title">
+    <smaller-panel :title="$t('menu.links')">
       <div class="links-page-content">
       <v-row justify="space-between">
         <a href="https://github.com/SabinaBor" class="fa fa-github">

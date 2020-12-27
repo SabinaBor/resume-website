@@ -18,18 +18,18 @@
         ></v-img>
       </template>
 
-      <v-toolbar-title>САБИНА БОРАНБАЕВА</v-toolbar-title>
+      <v-toolbar-title>{{ $t('name')}}</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
       <template v-slot:extension>
         <v-tabs align-with-title>
-          <v-tab><a href="#about-part">Обо мне</a></v-tab>
-          <v-tab><a href="#skill-part">Навыки</a></v-tab>
-          <v-tab><a href="#education-part">Образование</a></v-tab>
-          <v-tab><a href="#project-part">Мои проекты</a></v-tab>
-          <v-tab><a href="#contact-part">Контакты</a></v-tab>
-          <v-tab><a href="#link-part">Ссылки</a></v-tab>
+          <v-tab><a href="#about-part">{{ $t('menu.about')}}</a></v-tab>
+          <v-tab><a href="#skill-part">{{ $t('menu.skills')}}</a></v-tab>
+          <v-tab><a href="#education-part">{{ $t('menu.education')}}</a></v-tab>
+          <v-tab><a href="#project-part">{{ $t('menu.projects')}}</a></v-tab>
+          <v-tab><a href="#contact-part">{{ $t('menu.contacts')}}</a></v-tab>
+          <v-tab><a href="#link-part">{{ $t('menu.links')}}</a></v-tab>
         </v-tabs>
       </template>
     </v-app-bar>
@@ -38,6 +38,12 @@
         class="overflow-y-auto"
         max-height="700"
     >
+      <div class="btn-lng" style="margin-top: 40%; margin-left: 40%; width: 20%">
+        <v-row justify="space-between">
+          <v-btn color="#F48FB1" dark @click="switchLocale(en)">English</v-btn>
+          <v-btn color="#F48FB1" dark @click="switchLocale(ru)">Русский</v-btn>
+        </v-row>
+      </div>
       <div class="some-part" id='about-part'>
         <About></About>
       </div>
@@ -74,7 +80,10 @@ import Skills from "@/components/Skills";
 export default {
   name: 'MainPage',
   data() {
-    return {}
+    return {
+      en: process.env.VUE_APP_I18N_FALLBACK_LOCALE,
+      ru: process.env.VUE_APP_I18N_LOCALE
+    }
   },
   components: {
     About,
@@ -83,6 +92,13 @@ export default {
     Links,
     MyProjects,
     Skills
+  },
+  methods: {
+    switchLocale(locale) {
+      if (this.$i18n.locale !== locale) {
+        this.$i18n.locale = locale;
+      }
+    }
   }
 }
 </script>
@@ -95,7 +111,7 @@ export default {
 }
 
 #about-part:before {
-  height: 300px!important;
+  height: 100px!important;
 }
 
 .some-part:before {
@@ -115,13 +131,21 @@ a:visited {
 }
 
 #about-part {
-  margin-top: 15%;
+  margin-top: 0%;
 }
 
 @media screen and (max-width: 600px) {
 
+  .btn-lng {
+    margin-top: 120%!important;
+  }
+
   #about-part {
-    margin-top: 30%;
+    margin-top: 0%;
+  }
+
+  #about-part:before {
+    height: 50px!important;
   }
 
   .v-toolbar__title {

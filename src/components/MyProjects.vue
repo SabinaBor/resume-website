@@ -1,6 +1,6 @@
 <template>
   <div class="projects-page">
-    <smaller-panel :title="content.title">
+    <smaller-panel :title="$t('menu.projects')">
       <div class="btn-group">
         <v-layout column>
           <v-dialog
@@ -12,19 +12,19 @@
                   dark
                   v-bind="attrs"
                   v-on="on">
-                {{ titles[0] }}
+                {{ $t('projectsPage.infotb') }}
               </v-btn>
             </template>
             <v-card>
               <v-card-title class="headline">
                 <v-row justify="space-between">
-                  {{titles[0]}}
+                  {{ $t('projectsPage.infotb') }}
                   <v-btn
                       text
                       @click="dialog = false"
                       flat
                   >
-                    закрыть
+                    {{$t('projectsPage.close')}}
                   </v-btn>
                 </v-row>
               </v-card-title>
@@ -53,7 +53,7 @@
                       @click="dialog1 = false"
                       flat
                   >
-                    закрыть
+                    {{$t('projectsPage.close')}}
                   </v-btn>
                 </v-row>
               </v-card-title>
@@ -82,7 +82,7 @@
                     @click="dialog2 = false"
                     flat
                 >
-                  закрыть
+                  {{$t('projectsPage.close')}}
                 </v-btn>
                 </v-row>
               </v-card-title>
@@ -105,9 +105,6 @@ export default {
   name: "MyProjects",
   data() {
     return {
-      content: {
-        title: 'МОИ ПРОЕКТЫ'
-      },
       dialog: false,
       dialog1: false,
       dialog2: false,

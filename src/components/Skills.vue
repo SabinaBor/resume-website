@@ -1,10 +1,10 @@
 <template>
   <div class="skills-page">
-    <panel :title="content.title">
+    <panel :title="$t('menu.skills')">
       <div class="skills-page-content">
       <v-row>
         <v-layout column>
-          <list :title="listTitles[0]">
+          <list :title="$t('skillsPage.title1')">
               <v-list-item
                   v-for="(item, i) in items"
                   :key="i"
@@ -14,7 +14,7 @@
                 </v-list-item-content>
               </v-list-item>
           </list>
-          <list :title="listTitles[1]">
+          <list :title="listTitle">
               <v-list-item
                   v-for="(frame, i) in javaScriptFrameworks"
                   :key="i"
@@ -28,7 +28,7 @@
 
         <v-spacer/>
         <v-layout column>
-          <list :title="listTitles[2]">
+          <list :title="$t('skillsPage.title2')">
             <v-list-item
                 v-for="(item2, i) in items2"
                 :key="i"
@@ -38,15 +38,17 @@
               </v-list-item-content>
             </v-list-item>
           </list>
-          <list :title="listTitles[3]">
-              <v-list-item
-                  v-for="(additional, i) in additionals"
-                  :key="i"
-              >
+          <list :title="$t('skillsPage.title3')">
+              <v-list-item>
                 <v-list-item-content>
-                  <v-list-item-title v-text="additional"></v-list-item-title>
+                  <v-list-item-title v-text="$t('skillsPage.skill1')"></v-list-item-title>
                 </v-list-item-content>
               </v-list-item>
+            <v-list-item>
+              <v-list-item-content>
+                <v-list-item-title v-text="$t('skillsPage.skill2')"></v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
           </list>
         </v-layout>
       </v-row>
@@ -63,14 +65,10 @@ export default {
   name: "About",
   data() {
     return {
-      content: {
-        title: "МОИ НАВЫКИ"
-      },
-      listTitles: ['ЕСТЬ OПЫТ C', 'JavaScript Frameworks', 'ЯЗЫКИ, С КОТОРЫМИ РАБОТАЛА В УНИВЕРСИТЕТЕ', 'ДОПОЛНИТЕЛЬНЫЕ НАВЫКИ'],
+      listTitle: 'JavaScript Frameworks',
       items: ['JavaScript', 'HTML', 'CSS', 'SQLite/Web SQL/Postgresql', 'jQuery'],
       items2: ['C', 'C++', 'Java', 'Python', 'Haskell', 'MATLAB', 'R programming', 'Rascal'],
-      javaScriptFrameworks: ['Vue.js', 'node.js', 'Apache Cordova', 'express.js', 'electron.js'],
-      additionals: ['Разбираюсь в Git', 'Работала с PostMan']
+      javaScriptFrameworks: ['Vue.js', 'node.js', 'Apache Cordova', 'express.js', 'electron.js']
     }
   },
   components: {

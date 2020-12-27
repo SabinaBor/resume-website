@@ -2,20 +2,20 @@
   <v-card>
     <br>
     <v-card-text>
-      {{content.text}}
+      {{ $t('projectsPage.ress_text') }}
     </v-card-text>
-    <h2 style="color: #2c3e50">Галерея</h2>
+    <h2 style="color: #2c3e50">{{ $t('projectsPage.gallery') }}</h2>
     <div class="img-container">
       <v-layout column>
-        <p>Главная страница:</p>
+        <p>{{ $t('projectsPage.infotb_img1') }}:</p>
         <img src="../../images/ressSeatFinder/res1.png">
         <v-banner single-line/>
         <br>
-        <p>Карта:</p>
+        <p>{{ $t('projectsPage.ress_img1') }}:</p>
         <img src="../../images/ressSeatFinder/res2.png">
         <v-banner single-line/>
         <br>
-        <p>Рабочая страница для ресторанов:</p>
+        <p>{{ $t('projectsPage.ress_img2') }}:</p>
         <img src="../../images/ressSeatFinder/res3.png">
         <v-banner single-line/>
       </v-layout>
