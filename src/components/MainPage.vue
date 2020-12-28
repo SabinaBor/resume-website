@@ -8,7 +8,7 @@
         dark
         shrink-on-scroll
         prominent
-        src="https://sun9-47.userapi.com/impf/sKb0NE0NLJ2P6vVHz_cYhrbNVmbi8vfy80DbqQ/EqHPhAgG2ko.jpg?size=1242x414&quality=96&proxy=1&sign=73541a6f6c3641c5ce8bf68db409bf07&type=album"
+        src="https://sun9-28.userapi.com/impf/1Bz3376JBFMPnmAVdA0grULdGRQcB0unkRw-sQ/rutcUBISZY4.jpg?size=1242x414&quality=96&proxy=1&sign=ddd79d6229555e177da8b73ae8f98aef&type=album"
         fade-img-on-scroll
         scroll-target="#scrolling-techniques-3"
     >

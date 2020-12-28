@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f76e28ff-4a52-43c7-aa56-fc5122e96b9c" name="Default Changelist" comment="Added Contacts, Links">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contacts.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Education.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Education.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Links.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Links.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MyProjects.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyProjects.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects/HumanAssisEnv.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/HumanAssisEnv.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects/InfoTB.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/InfoTB.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects/RessSeatFinder.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/RessSeatFinder.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Skills.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="f76e28ff-4a52-43c7-aa56-fc5122e96b9c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608812948270</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added English version">
+      <created>1609089648843</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609089648843</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +78,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Contacts, Links" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Contacts, Links" />
+    <MESSAGE value="Added English version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added English version" />
   </component>
 </project>
